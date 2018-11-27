@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.q10_main {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: solid 5px #222;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.q10_main:before {
+    content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 10%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  border-top: 12px solid white;
+  z-index: 2;
+}
+
+.q10_main:after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 10%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid #222;
+  z-index: 1;
+}
+
+
+
+
 /* 回答はここに書いてね */

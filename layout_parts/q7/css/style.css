@@ -2,4 +2,121 @@
 
 /* 回答はここに書いてね */
 
+/*1*/
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7_content {
+  width: 205px;
+  float: left;
+  margin-left: 50px;
+}
+
+.q7_content:first-child {
+  margin: 0;
+}
+
+/*2*/
+
+.q7_content_2 {
+  display: table;
+}
+
+.q7_box_2 {
+  display: table-cell;
+  width: 205px;
+  padding-left: 50px;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.q7_box_2:first-child {
+  padding: 0;
+}
+
+/*3*/
+
+.q7_inner_3 {
+  font-size: 0;
+}
+
+.q7_box_3 {
+  width: 205px;
+  margin-left: 50px;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.q7_box_3:first-child {
+  margin: 0;
+}
+
+/*4*/
+
+.q7_inner_4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.q7_box_4 {
+  width: 205px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+/*5*/
+
+.q7_inner_5 {
+  font-size: 0;
+  display: table;
+}
+
+.q7_box_5 {
+  font-size: 16px;
+  /*display: inline-block;*/
+}
+
+.q7_box_5:last-child {
+  display: table-cell;
+}
+
+.q7_box_5:first-child {
+  margin-right: 50px;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
+
