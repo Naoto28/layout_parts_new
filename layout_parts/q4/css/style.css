@@ -4,12 +4,17 @@
 
 .q4_content {
   display: grid;
+  padding: 20px;
 }
 
-.up_bar,.under_bar {
-  padding: 20px;
+.up_bar,
+.under_bar {
   display: table;
   text-align: center;
+}
+
+.up_bar {
+  margin-bottom: 20px;
 }
 
 span {
@@ -24,7 +29,6 @@ span {
 }
 
 .data_2 {
-  /*width: 100%;*/
   background-color: #e0abd9;
   display:table-cell
 }
@@ -36,13 +40,11 @@ span {
 }
 
 .data_4 {
-  /*width: 100%;*/
   background-color: #e5d32e;
   display:table-cell
 }
 
 .data_5 {
-  /*width: 100%;*/
   background-color: #ec8f9a;
   display:table-cell
 }

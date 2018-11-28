@@ -8,6 +8,8 @@
   padding: 20px;
   width: 940px;
   margin: 0 auto;
+  box-sizing: border-box;
+  word-break: break-all;
 }
 
 .q2__content p {

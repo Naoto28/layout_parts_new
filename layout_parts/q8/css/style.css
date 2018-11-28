@@ -284,6 +284,7 @@
   font-size: 16px;
   line-height: 26px;
   border: none;
+  outline: none;
 }
 
 .q8_textarea{
@@ -298,9 +299,18 @@
   border: none;
 }
 
+.input_init {
+  outline: none;
+}
 
+.input_init:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
 
-
+.form_bottun:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
 
 
 

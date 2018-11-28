@@ -30,7 +30,6 @@
   display: table-cell;
   width: 205px;
   padding-left: 50px;
-  align-self: center;
   vertical-align: middle;
 }
 
@@ -73,20 +72,22 @@
 
 .q7_inner_5 {
   font-size: 0;
-  display: table;
 }
 
 .q7_box_5 {
   font-size: 16px;
-  /*display: inline-block;*/
+  display: inline-block;
 }
 
 .q7_box_5:last-child {
-  display: table-cell;
+  margin-left: -300px;
+  width: 100%;
+  display: inline-block;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 
 .q7_box_5:first-child {
-  margin-right: 50px;
   width: 300px;
 }
 

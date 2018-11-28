@@ -13,32 +13,32 @@
 }
 
 
-.q3_table thead .value {
+.q3_table thead th {
   background-color: #2244aa;
   color: white;
   border-right: solid 1px #dedede;
   border-bottom: solid 1px #dedede;
 }
 
-.q3_table thead .value:last-child {
+.q3_table thead th:last-child {
   border-right: none;
 }
 
 
-.q3_table tbody .value {
+.q3_table tbody td {
   /*background-color: #2244aa;*/
   border-right: solid 1px #dedede;
   border-bottom: solid 1px #dedede;
 }
 
-.q3_table tbody .data {
+.q3_table tbody tr td:first-child {
   background-color: #2244aa;
   color: white;
   border-right: solid 1px #dedede;
   border-bottom: solid 1px #dedede;
 }
 
-.total {
+.q3_table tbody tr:last-child {
   border-top: dashed 2px #000;
 }
 

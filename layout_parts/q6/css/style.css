@@ -2,12 +2,17 @@
 
 /* 回答はここに書いてね */
 
+#q6_main {
+  text-align: center;
+}
 
 .q6_box_sub {
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px;
   margin:0 auto;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .q6_box_text {
@@ -15,6 +20,7 @@
   width: 90px;
   padding: 10px;
   margin:0 auto;
+  box-sizing: border-box;
 }
 
 .q6__box p {
@@ -25,7 +31,6 @@
 .q6_around_text {
   background-color: #fff;
   display: inline-block;
-  vertical-align: middle;
   padding: 10px;
 }
 
