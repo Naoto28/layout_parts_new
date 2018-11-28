@@ -12,16 +12,12 @@
   font-size: 30px;
 }
 
-.q5_content .square {
+.square {
   width: 100px;
   height: 100px;
   text-align: center;
   line-height: 100px;
   position: absolute;
-}
-
-.q5_content .square:last-child {
-  position: fixed;
 }
 
 .square_1 {
@@ -84,8 +80,8 @@
   background-color: #2b69a3;
   top: 10px;
   left: 10px;
+  position: fixed;
 }
-
 
 
 .square_8:after {

@@ -3,56 +3,49 @@
 /* 回答はここに書いてね */
 
 .q4_content {
-  display: grid;
   padding: 20px;
 }
 
-.up_bar,
-.under_bar {
+.q4_bar {
   display: table;
   text-align: center;
+  width: 100%;
 }
 
-.up_bar {
+.q4_bar:first-child {
   margin-bottom: 20px;
 }
 
-span {
-  margin: 20px 0;
-  display: block;
+.data_text {
+  padding: 20px;
+  display:table-cell
 }
 
 .data_1 {
   width: 100px;
   background-color: #fdc8b8;
-  display:table-cell
 }
 
 .data_2 {
   background-color: #e0abd9;
-  display:table-cell
 }
 
 .data_3 {
   width: 100px;
   background-color: #b6d8ed;
-  display:table-cell
 }
 
 .data_4 {
   background-color: #e5d32e;
-  display:table-cell
 }
 
 .data_5 {
   background-color: #ec8f9a;
-  display:table-cell
 }
 
 .data_6 {
   width: 500px;
   background-color: #8fdcad;
-  display:table-cell
 }
 
 

@@ -10,14 +10,16 @@
 
 .q3_table td,th {
   padding: 10px 0;
+  border: solid 1px #dedede;
+  line-height: 22px;
 }
 
 
 .q3_table thead th {
   background-color: #2244aa;
   color: white;
-  border-right: solid 1px #dedede;
-  border-bottom: solid 1px #dedede;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .q3_table thead th:last-child {
@@ -25,17 +27,16 @@
 }
 
 
-.q3_table tbody td {
-  /*background-color: #2244aa;*/
-  border-right: solid 1px #dedede;
-  border-bottom: solid 1px #dedede;
+.q3_table tbody th {
+  background-color: #2244aa;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .q3_table tbody tr td:first-child {
   background-color: #2244aa;
   color: white;
-  border-right: solid 1px #dedede;
-  border-bottom: solid 1px #dedede;
 }
 
 .q3_table tbody tr:last-child {
